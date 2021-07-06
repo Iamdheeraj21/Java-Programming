@@ -13,6 +13,7 @@ public class MultiplyArray
         n=scanner.nextInt();
         int array[]=new int[n];
         int sum=0,totalSumOfElement=0;
+        HashSet<Integer> hs= new HashSet<Integer>();  
           
 
         //Input the element in an array
@@ -33,7 +34,9 @@ public class MultiplyArray
                 sum=array[i]*(array[i]*array[j]);
                 totalSumOfElement+=sum;   
             }
-            System.out.print(totalSumOfElement+"  ");
+            hs.add(totalSumOfElement);
         }
+
+        System.out.println("\n"+hs);
     }
 }
