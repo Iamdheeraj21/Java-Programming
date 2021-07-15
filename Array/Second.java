@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.*;
 
 class Second
 {
@@ -27,5 +25,6 @@ class Second
             }
         }
         System.out.println("Second Maximum Element :- "+sMax);
+        
     }
 }
