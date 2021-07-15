@@ -4,7 +4,6 @@ public class Insertionsort {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
-
         int arr[]=new int[n];
         for(int i=0;i<n;i++)
         {
@@ -21,7 +20,6 @@ public class Insertionsort {
             }
             arr[j+1]=temp;
         }
-
         for(int i=0;i<n;i++)
         {
             System.out.print(arr[i]+" ");
