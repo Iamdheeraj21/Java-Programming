@@ -6,6 +6,7 @@ public class EvenOdd {
         int row=scanner.nextInt();
         int col=scanner.nextInt();
         int even=0,odd=0;
+       
     
 
         int arr[][]=new int[row][col];
